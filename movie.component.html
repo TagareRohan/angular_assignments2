@@ -1,0 +1,10 @@
+<h1>Movies</h1>
+
+<div *ngFor="let movie of movieList">
+
+  <img src={{movie.movieImage}} alt="image">
+  <h5>Movie ID : {{movie.movieId}}</h5>
+  <h5>Movie Name : {{movie.movieName}}</h5>
+  <h5>Movie Rating : {{movie.movieRating}}</h5>
+  
+</div>
